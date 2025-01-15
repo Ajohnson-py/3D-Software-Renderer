@@ -49,8 +49,8 @@ void setup(void) {
     init_frustum_planes(fov_x, fov_y, z_near, z_far);
 
     // Load mesh data (OBJ and PNG texture) and apply initialized transformations
-    load_mesh("./assets/crab.obj", "./assets/crab.png", vec3_new(1, 1, 1), vec3_new(-3, 0, 8), vec3_new(0, 0, 0));
-    load_mesh("./assets/f22.obj", "./assets/f22.png", vec3_new(1, 1, 1), vec3_new(3, 0, 8), vec3_new(0, 0, 0));
+    load_mesh("./assets/crab.obj", "./assets/crab.png", vec3_new(1, 1, 1), vec3_new(-3, 0, 10), vec3_new(0, 0, 0));
+    load_mesh("./assets/f22.obj", "./assets/f22.png", vec3_new(1, 1, 1), vec3_new(3, 0, 10), vec3_new(0, 0, 0));
 
     // Find maximum number of triagles in the meshes and ininialize the size of triangles_to_render
     int max_size = 0;
